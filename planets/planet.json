@@ -38,10 +38,10 @@
         "dialogue": [
             {
 				"position": {"x": 14, "y": 102.5203, "z": -2},
-                "xmlFile" : "planets/talky.xml",
+                "xmlFile" : "planets/chat.xml",
                 "pathToAnimController":"Sector_VM/Nomai_ANIM_SkyWatching_Idle",
                 "lookAtRadius" : 3,
-                "radius" : 2
+                "radius" : 1.5
             }
         ]
        

@@ -1,0 +1,49 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "name": "VOLCANIC_MOON",
+    "removeChildren": ["MoltenCore_VM"],
+	"Lava" : 
+	{
+		"size": 150,
+		"curve" :[
+			{"time":0,"value": 0.61},
+            {"time":1.33,"value": 0.61},
+			{"time":4.66,"value": 0.67},
+			{"time":24, "value":65}
+		],
+        "tint" : { "r" : 506, "g" : 38, "b" : 0, "a" : 255 }
+
+	},
+    "Props" : 
+	{   "details" :
+        [
+            { 
+				"path" : "QuantumMoon_Body/Sector_QuantumMoon/State_EYE/Interactables_EYEState/ConversationPivot/Character_NOM_Solanum/Nomai_ANIM_SkyWatching_Idle", 
+				"position": {"x": 13.95946, "y": 101.3203, "z": -1.988222},
+				"rotation": {"x": 0, "y": 0, "z": 0}
+            },
+            { 
+				"path" : "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_City/Lighting_City/Lights_FossilDistrict/Prefab_NOM_Lamp_Glow_Diamond_Wall", 
+				"position": {"x": 12.55908, "y": 101.5344, "z": -4.0618}
+            },
+            { 
+				"path" : "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_City/Lighting_City/Lights_FossilDistrict/Prefab_NOM_Lamp_Glow_Diamond_Wall", 
+				"position":  {"x": 13.13823, "y": 101.2025, "z": -0.2575893}
+            },
+            { 
+				"path" : "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_City/Lighting_City/Lights_FossilDistrict/Prefab_NOM_Lamp_Glow_Diamond_Wall", 
+				"position":  {"x": 16.25902, "y": 101.3603, "z": -2.31488}
+            }
+        ],
+        "dialogue": [
+            {
+				"position": {"x": 14, "y": 102.5203, "z": -2},
+                "xmlFile" : "planets/talky.xml",
+                "pathToAnimController":"Sector_VM/Nomai_ANIM_SkyWatching_Idle",
+                "lookAtRadius" : 3,
+                "radius" : 2
+            }
+        ]
+       
+    }
+}

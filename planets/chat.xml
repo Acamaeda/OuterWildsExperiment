@@ -1,0 +1,177 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>Filix</NameField>
+
+	<DialogueNode>
+		<Name>MAIN</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Hello, are you here to see the experiment as well? (I hope you have “Freeze time while talking to others” on, we don’t have long.)</Page>
+		</Dialogue>
+        <SetCondition>Talked</SetCondition>
+
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>What? How are you alive? Why are we speaking the same language?</Text>
+				<DialogueTarget>Consistency</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>What are you doing?</Text>
+				<DialogueTarget>Experiment</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>You need to stop the lava!</Text>
+				<DialogueTarget>Stop</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Good luck with your experiment, I guess?</Text>
+				<DialogueTarget>END</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+
+	</DialogueNode>
+
+    <DialogueNode>
+		<Name>Repeat</Name>
+		<EntryCondition>Talked</EntryCondition>
+		<Dialogue>
+			<Page>This is exciting, the lava is rising, and soon we will discover a great truth of nature.</Page>
+		</Dialogue>
+        
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>What? How are you alive? Why are we speaking the same language?</Text>
+				<DialogueTarget>Consistency</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>What are you doing?</Text>
+				<DialogueTarget>Experiment</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>You need to stop the lava!</Text>
+				<DialogueTarget>Stop</DialogueTarget>
+			</DialogueOption>
+            <DialogueOption>
+				<Text>The sun is going to explode, soon.</Text>
+				<DialogueTarget>Sun</DialogueTarget>
+			</DialogueOption>
+            <DialogueOption>
+				<Text>I know how to get to the Eye of the Universe!</Text>
+				<DialogueTarget>Eye</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Good luck with your experiment, I guess?</Text>
+				<DialogueTarget>END</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>Consistency</Name>
+		<Dialogue>
+			<Page>My people have devised a way to measure the most fundamental property of the universe, its consistency. That is to say, how much sense the universe makes.</Page>
+			<Page>That value has held at a constant 63% throughout our history. But recently, for reasons we don’t and likely can’t understand, that value dropped to just 17%.</Page>
+			<Page>This sudden change opened up so many new potential avenues for research, so I’ve decided to use it to test an old hypothesis of mine.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Just 17%? Isn’t that… bad?</Text>
+				<DialogueTarget>Bad</DialogueTarget>
+			</DialogueOption>
+            <DialogueOption>
+				<Text>Couldn’t you use that to find the Eye of the Universe instead?</Text>
+				<DialogueTarget>Find</DialogueTarget>
+			</DialogueOption>
+            <DialogueOption>
+				<Text>What hypothesis?</Text>
+				<DialogueTarget>Experiment</DialogueTarget>
+			</DialogueOption>
+
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Bad</Name>
+		<Dialogue>
+			<Page>We don’t know! There is so much to discover about our newly-unstable reality.</Page>
+		</Dialogue>
+    <DialogueTarget>Repeat</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Find</Name>
+		<Dialogue>
+			<Page>Probably. Actually definitely, maybe. But I wanted to do the lava experiment, instead.</Page>
+		</Dialogue>
+        <DialogueTarget>Repeat</DialogueTarget>
+	</DialogueNode>
+    
+
+	<DialogueNode>
+		<Name>Experiment</Name>
+		<Dialogue>
+			<Page>Long ago, I posited that there can exist too much lava. And now, we are finally going to find out.</Page>
+			<Page>Thatch fears the truth, only wanting to test the null hypothesis, but how could we hope to discover anything without taking some risks?</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Aren’t you going to die in the lava too?</Text>
+				<DialogueTarget>Die</DialogueTarget>
+			</DialogueOption>
+            <DialogueOption>
+				<Text>Isn’t that going to destroy the whole solar system?</Text>
+				<DialogueTarget>Destroy</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+    <DialogueNode>
+		<Name>Die</Name>
+		<Dialogue>
+			<Page>Of course not. I’ve planned for that in my procedure.</Page>
+            <Page>The step after “Fill the solar system with lava” is “Don’t die.” So I’ll be fine.</Page>
+		</Dialogue>
+        <DialogueTarget>Repeat</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Destroy</Name>
+		<Dialogue>
+			<Page>Yes, for science! For discovery’s sake, we are compelled to fill the solar system with lava!</Page>
+		</Dialogue>
+        <DialogueTarget>Repeat</DialogueTarget>
+	</DialogueNode>
+
+
+    <DialogueNode>
+		<Name>Stop</Name>
+		<Dialogue>
+			<Page>Stop it? It’s too late for that, the experiment started several minutes ago.</Page>
+            <Page>And beyond that, if I stopped it, we would never learn if there is a limit to how much lava is acceptable.</Page>
+		</Dialogue>
+	    <DialogueTarget>Repeat</DialogueTarget>
+    </DialogueNode>
+
+	<DialogueNode>
+		<Name>Sun</Name>
+		<Dialogue>
+			<Page>That is bad, it will interfere with the experiment! Hopefully we can collect enough data before that happens.</Page>
+		</Dialogue>
+        <DialogueTarget>Repeat</DialogueTarget>
+	</DialogueNode>
+
+    <DialogueNode>
+		<Name>Eye</Name>
+		<Dialogue>
+			<Page>What? I can’t hear you over the sound of discovery! (And the volcano.)</Page>
+		</Dialogue>
+        <DialogueTarget>Repeat</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>END</Name>
+		<Dialogue>
+			<Page>Thank you! But this is not a matter of luck. Whether my hypothesis is correct or not, we will discover the truth.</Page>
+		</Dialogue>
+	</DialogueNode>
+</DialogueTree>

@@ -9,7 +9,7 @@
 			{"time":0,"value": 0.61},
             {"time":1.33,"value": 0.61},
 			{"time":4.66,"value": 0.67},
-			{"time":24, "value":65}
+			{"time":24, "value": 75}
 		],
         "tint" : { "r" : 506, "g" : 38, "b" : 0, "a" : 255 }
 
@@ -43,7 +43,12 @@
                 "lookAtRadius" : 3,
                 "radius" : 1.5
             }
+        ],
+        "entryLocation": [
+            {
+              "id": "HAPPEN_HAPPEN",
+              "position": {"x": 14, "y": 102.5203, "z": -2}
+            }
         ]
-       
     }
 }

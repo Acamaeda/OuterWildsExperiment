@@ -7,6 +7,9 @@
 		<Dialogue>
 			<Page>Hello, are you here to see the experiment as well? (I hope you have “Freeze time while talking to others” on, we don’t have long.)</Page>
 		</Dialogue>
+   		<RevealFacts>
+        	<FactID>HAPPEN_FACT</FactID>
+    	</RevealFacts>
         <SetCondition>Talked</SetCondition>
 
 		<DialogueOptionsList>
@@ -36,7 +39,9 @@
 		<Dialogue>
 			<Page>This is exciting, the lava is rising, and soon we will discover a great truth of nature.</Page>
 		</Dialogue>
-        
+        <RevealFacts>
+        	<FactID>HAPPEN_FACT</FactID>
+    	</RevealFacts>
 		<DialogueOptionsList>
 			<DialogueOption>
 				<Text>What? How are you alive? Why are we speaking the same language?</Text>

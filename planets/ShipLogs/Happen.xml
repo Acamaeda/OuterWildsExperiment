@@ -1,0 +1,21 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+    <ID>HAPPEN</ID>
+
+    <Entry>
+        <ID>HAPPEN_HAPPEN</ID>
+        <Name>Filix's Experiment</Name>
+        <IsCuriosity/>
+
+        <RumorFact>
+            <ID>HAPPEN_RUMOR</ID> 
+            <RumorName>???</RumorName> 
+            <Text>All is not well in the Outer Wilds. You'll know it when you see it, but the real question is, why is it happening?</Text>
+
+        </RumorFact>
+
+        <ExploreFact>
+            <ID>HAPPEN_FACT</ID> 
+            <Text>Filix is somehow alive! She created an experiment on Hollow's Lantern that floods the solar system with lava.</Text> 
+        </ExploreFact>
+    </Entry>
+</AstroObjectEntry>

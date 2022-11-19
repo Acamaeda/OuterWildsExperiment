@@ -6,8 +6,9 @@
         "xmlFile": "planets/ShipLogs/Happen.xml",
         "initialReveal": [
             "HAPPEN_RUMOR"
-          ]
-      
+        ],
+        "spriteFolder": "planets/ShipLogs/"
+
     },
   
 }

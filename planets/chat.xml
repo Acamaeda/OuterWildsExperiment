@@ -18,7 +18,7 @@
 				<DialogueTarget>Consistency</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
-				<Text>What are you doing?</Text>
+				<Text>What are you doing? What's with all of this lava?</Text>
 				<DialogueTarget>Experiment</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
@@ -48,7 +48,7 @@
 				<DialogueTarget>Consistency</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
-				<Text>What are you doing?</Text>
+				<Text>What are you doing? What's with all of this lava?</Text>
 				<DialogueTarget>Experiment</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
@@ -60,7 +60,7 @@
 				<DialogueTarget>Sun</DialogueTarget>
 			</DialogueOption>
             <DialogueOption>
-				<Text>I know how to get to the Eye of the Universe!</Text>
+				<Text>Wait, I know how to get to the Eye of the Universe!</Text>
 				<DialogueTarget>Eye</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
@@ -76,7 +76,7 @@
 		<Dialogue>
 			<Page>My people have devised a way to measure the most fundamental property of the universe, its consistency. That is to say, how much sense the universe makes.</Page>
 			<Page>That value has held at a constant 63% throughout our history. But recently, for reasons we don’t and likely can’t understand, that value dropped to just 17%.</Page>
-			<Page>This sudden change opened up so many new potential avenues for research, so I’ve decided to use it to test an old hypothesis of mine.</Page>
+			<Page>This sudden change opened up so many new potential avenues for research, so I’ve decided to use it to test an old hypothesis of mine, regarding lava.</Page>
 		</Dialogue>
 		<DialogueOptionsList>
 			<DialogueOption>
@@ -86,10 +86,6 @@
             <DialogueOption>
 				<Text>Couldn’t you use that to find the Eye of the Universe instead?</Text>
 				<DialogueTarget>Find</DialogueTarget>
-			</DialogueOption>
-            <DialogueOption>
-				<Text>What hypothesis?</Text>
-				<DialogueTarget>Experiment</DialogueTarget>
 			</DialogueOption>
 
 		</DialogueOptionsList>

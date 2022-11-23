@@ -4,15 +4,13 @@
     "removeChildren": ["MoltenCore_VM"],
 	"Lava" : 
 	{
-		"size": 150,
+		"size": 100,
 		"curve" :[
-			{"time":0,"value": 0.61},
-            {"time":1.33,"value": 0.61},
-			{"time":4.66,"value": 0.67},
-			{"time":24, "value": 88}
-		],
-        "tint" : { "r" : 506, "g" : 38, "b" : 0, "a" : 255 }
-
+			{"time":0,"value": 0.93},
+            {"time":1.33, "value": 0.93},
+			{"time":4.66, "value": 1},
+			{"time":24, "value": 151}
+		]
 	},
     "Props" : 
 	{   "details" :

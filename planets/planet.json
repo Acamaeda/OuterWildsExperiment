@@ -6,10 +6,10 @@
 	{
 		"size": 100,
 		"curve" :[
-			{"time":0,"value": 0.93},
-            {"time":1.33, "value": 0.93},
+			{"time":0,"value": 0.955},
+            {"time":1.33, "value": 0.955},
 			{"time":4.66, "value": 1},
-			{"time":24, "value": 151}
+			{"time":24, "value": 152.5}
 		]
 	},
     "Props" : 

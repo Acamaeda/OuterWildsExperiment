@@ -5,3 +5,7 @@ Either a very small story mod, or a small, weird mod with a bit of story added.
 
 
 ![Alt text](happen.png "Title")
+
+
+
+Cover image taken from "history of the entire world, i guess" by Bill Wertz
